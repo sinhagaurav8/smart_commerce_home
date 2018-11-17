@@ -8,6 +8,13 @@ function processMessage($update) {
             "displayText" => "Hello from webhook",
             "contextOut" => array()
         ));
+    }else{
+      sendMessage(array(
+          "source" => "Sorry !!!",
+          "speech" => "Sorry !!!",
+          "displayText" => "Hello from webhook",
+          "contextOut" => array()
+      ));
     }
 }
 
